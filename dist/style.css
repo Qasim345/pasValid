@@ -18,6 +18,7 @@ header{
   place-items: center;
   background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(pasBg.jpg) no-repeat center fixed;
   background-size: cover;
+  font-family: Arial;
 }
 header div{
   width: 80%;
@@ -39,10 +40,14 @@ header a{
 .container h1{
   text-align: center;
   padding: 20px 0;
+  font-family: Arial;
 }
 .container .box{
   margin: 10px auto;
   overflow: hidden;
+}
+.box h2{
+  font-family: Arial;
 }
 .container .box pre{
   border-radius: 3px;
@@ -51,6 +56,7 @@ header a{
   width: 100%;
   padding: 20px;
   text-align: center;
+  font-family: Arial;
 }
 .box form input{
   width: 100%;
@@ -72,6 +78,7 @@ footer{
   background: #000;
   text-align: center;
   color: #eee;
+  font-family: Arial;
 }
 footer a{
   color: #fff;
